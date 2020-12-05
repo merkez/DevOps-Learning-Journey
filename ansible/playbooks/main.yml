@@ -1,0 +1,6 @@
+---
+  - import_playbook: yum-update.yml
+  - import_playbook: install-services.yml
+  - import_playbook: setup-app.yml
+  - import_playbook: setup-lb.yml
+  
